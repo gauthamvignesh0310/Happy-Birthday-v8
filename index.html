@@ -14,7 +14,7 @@
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.19/dist/sweetalert2.all.min.js"></script>
     <script src="https://unpkg.com/typeit@8.7.0/dist/index.umd.js"></script>
     <script src="https://kit.fontawesome.com/4f3ce16e3e.js" crossorigin="anonymous"></script>
-    <title>Happy Birthday v8</title>
+    <title>Happy Birthday </title>
     <link rel="icon" type="image/x-icon" href="https://www.palingit.com/favicon.ico">
     <meta name="description" content="HTML Replit Coding">
 </head>
@@ -69,7 +69,7 @@
     }
 
     body::before {
-        content: "\00A9  Instagram | @aoudumber.dev";
+        content: "Gautham";
         color: white;
         opacity: .05;
         font-size: 10px;
@@ -578,7 +578,7 @@
         <div id="kadoIn">
             <!-- Tombol Surat --><img src="./assets/kadoin.png" />
         </div>
-        <p id="ket">Click the Gift!</p>
+        <p id="ket">Click The Gift!</p>
 
         <div class="kumpulanstiker">
             <!-- Stiker untuk Konten -->
@@ -603,22 +603,20 @@
                         <li id="lv1">🎂</li>
                         <li id="lv2">🎁</li>
                         <li id="lv3">🥳</li>
-                        <li id="lv4">💖</li>
                 </div>
 
                 <p id="pesan2">Wait...</p>
                 <!-- Pesan -->
                 <p id="pesan3">Hey.. it's your birthday! &#10084;</p>
-                <p id="pesan4">Happy Birthday My Love</p>
+                <p id="pesan4">Happy Birthday My Friend</p>
                 <p id="pesan5" class="gaya2">Getting older, getting cuter hehe</p>
                 <p id="pesan6" class="gaya2">Wishing you a long life, stay healthy dear wkwk &#10084;</p>
                 <p id="pesan7" class="gaya2">Hope your fortune keeps flowing, until you don't know how to spend it!</p>
 
                 <p id="pesan8" class="gaya2">Souuuuuuuu.....</p>
-                <p id="pesan9" class="gaya2">Hope you’re happy on your special day, you must be happy! I worked hard to
-                    make this, I even learned how to do it! &#10084;</p>
+                <p id="pesan9" class="gaya2">Hope you’re happy on your special day, you must be happy!  &#10084;</p>
                 <p id="pesan10" class="gaya2">Thank you for being my biggest support, caring about me, and always being
-                    there for me. Love you, dear. &#10084;</p>
+                    there for me. &#10084;</p>
 
                 <!-- Tombol Lanjut -->
                 <p id="opsL">Click to Continue</p>
@@ -646,8 +644,8 @@
 
         async function inipesan() {
             var { value: nama } = await swals.fire({
-                title: 'Your name?',
-                input: 'text',
+                title: 'Happy Birthday',
+                input: 'NOYAL MERLIN',
                 confirmButtonText: 'Continue',
                 showCancelButton: false,
             });
@@ -668,7 +666,7 @@
         async function pilihwarna() {
             var { isConfirmed: warna } = await swals.fire({
                 title: 'Oh, ' + nama + ', which color do you want to choose?',
-                text: 'Come on, don\'t hesitate :v',
+                text: 'Come on, don\'t hesitate ',
                 showCancelButton: true,
                 confirmButtonText: 'Blue',
                 cancelButtonText: 'Red',
@@ -712,7 +710,7 @@
         var tompositif = 'Yes';
         var tomnegatif = 'Yes Yes Yes &#10084;';
 
-        async function menuju() { pesanwhatsapp = "Thank you for wishing " + nama + " a happy birthday ><"; await swals.fire('OK!', 'Please screen record this, sometimes my code has errors, I\'m still learning', 'success'); window.location = "https://api.whatsapp.com/send?phone=&text=" + pesanwhatsapp; }
+        async function menuju() { pesanwhatsapp = "Thank you for wishing " + nama + " a happy birthday ><"; await swals.fire('OK!', 'Please screen record this, as this makes you a memories because no one wished you like this ever '); window.location = "https://api.whatsapp.com/send?phone=&text=" + pesanwhatsapp; }
 
         function initengahan() {
             kadoIn.style = "display:none"; ket.style = "display:none";
